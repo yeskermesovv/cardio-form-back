@@ -1,0 +1,12 @@
+version: '3.7'
+services:
+  cardio_pg:
+    image: postgres:latest
+    container_name: cardio_db
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: cardio
+      POSTGRES_USER: cardio
+      POSTGRES_PASSWORD: cardio
+    ports:
+      - 5432:5432
