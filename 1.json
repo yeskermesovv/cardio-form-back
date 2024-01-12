@@ -1,0 +1,25 @@
+{
+  "questions": [
+    {
+      "mark": 4,
+      "doctorId": 3,
+      "tags": [
+        "Плохое качество изображения",
+        "Нечеткие линии"
+      ],
+      "fileName": "index-cut-pull\\250_cut_epoc_549.jpg",
+      "imageId": "250",
+      "epoch": "549",
+      "imageType": "cut"
+    },
+    {
+      "mark": "",
+      "doctorId": 3,
+      "tags": [],
+      "fileName": "index-cut-pull\\162_cut_epoch_885.jpg",
+      "imageId": "162",
+      "epoch": "885",
+      "imageType": "cut"
+    }
+  ]
+}
