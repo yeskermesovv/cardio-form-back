@@ -27,6 +27,10 @@ public class CardioFormController {
         return ResponseEntity.ok(cardioService.findAllDoctors());
     }
 
+    @GetMapping("/tags")
+    public ResponseEntity<?> findAllTags() {
+        return ResponseEntity.ok(cardioService.findAllTags());
+    }
 
     @PostMapping("/users")
     public ResponseEntity<?> saveUser(@RequestBody DoctorEntity doctorEntity) {
