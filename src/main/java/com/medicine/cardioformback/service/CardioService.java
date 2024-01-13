@@ -30,9 +30,7 @@ public class CardioService {
     }
 
     public Object saveQuestions(QuestionRequest request) {
-        questionRepository.saveAll(request.getQuestions());
-        log.info("questionss", request);
-        return null;
+        return questionRepository.saveAll(request.getQuestions());
     }
 
     public Object findAllTags() {
